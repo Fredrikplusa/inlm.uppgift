@@ -1,0 +1,261 @@
+
+
+/*===================================
+ #Reset
+===================================*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*===================================
+ #Gästboken
+===================================*/
+
+.Kommentarer {
+	background:black;
+	width:90%;
+	float:left;
+	padding:50px 50px;
+	margin-bottom:50px;
+}
+
+.gastbokTitel {
+	color:#524263;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom:50px;
+}
+
+
+.Avskiljare {
+	width: 400px;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid #5C5C5C;
+	opacity: 0.5;
+	margin: 20px 0;
+}
+
+.Author {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	display: inline-block;
+	color:#fff;
+}
+
+.Mail {
+	margin-left:10px;
+	display:inline-block;
+}
+
+.Message {
+	display:block;
+	padding-top:10px;
+	font-family: 'Open Sans', sans-serif;
+	padding-right: 30px;
+	color:#999;
+}
+
+/*===================================
+ #Lämna kommentar
+===================================*/
+
+.container{
+	background: #fff;
+	width:90%;
+	padding:50px;
+	background:black;
+	float:right;
+}
+
+.LamnaKommentar {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color:#524263;
+	margin-bottom:30px;
+}
+
+.FormTitel {
+	color:#9782AD;
+}
+
+/*===================================
+ #Base
+===================================*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font: 14px/21px 'Open Sans', sans-serif;
+	background: url(images/halloween.jpg);
+	color:#999;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.1em;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 { font-size: 40px;
+	font-weight: 700; }
+h2 { font-size: 33px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+a{
+	color: #558899;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+/*===================================
+ #Forms & Buttons
+===================================*/
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="password"],
+textarea {
+	display: block;
+	padding: 7px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	font: 14px/1 'Open Sans', sans-serif;
+	min-width: 220px;
+	background: #F3F2F3;
+
+}
+
+textarea{
+	min-height: 180px;
+	min-width: 340px;
+}
+
+button,
+input[type="submit"],
+input[type="button"]{
+	display: inline-block;
+	color:#ccc;
+	border: 0;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: #524263;
+	font: 14px/1 'Open Sans', sans-serif;
+	float:left;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover{
+	background: #999;
+}
+
+.felkod {
+color:#fff;
+font-size: 14px;
+float:left;
+padding-top:10px;
+padding-left:10px;
+
+
+}
+
+.Postat {
+color:#fff;
+font-size: 14px;
+float:left;
+padding-top:10px;
+padding-left:10px;
+
+
+}
+
+/*===================================
+ #Helpers
+===================================*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/*===================================
+ #Grid
+===================================*/
+
+
+[class^="col-"]{
+	float: left;
+	padding:0 10px;
+}
+
+.col-12 {
+	width: 100%;
+	
+}
+.col-11 {
+  	width: 91.66%;
+}
+.col-10 {
+  	width: 83.33%;
+}
+.col-9 {
+  	width: 75%;
+}
+.col-8 {
+  	width: 66.66%;
+}
+.col-7 {
+  	width: 58.33%;
+}
+.col-6 {
+  	width: 50%;
+}
+.col-5 {
+  	width: 41.66%;
+}
+.col-4 {
+  	width: 33.33%;
+}
+.col-3 {
+  	width: 25%;
+}
+.col-2 {
+  	width: 16.66%;
+}
+.col-1 {
+  	width: 8.333%;
+}
+.row:after,
+.row:before{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		width: 100%;
+	}
+
+	[class^="col-"]{
+		width: 100%;
+	}
+}
